@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box</title>
+    <style>
+
+        *{ 
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+
+        }
+        body{
+
+            background-color: cyan;
+        }
+        .container{
+            background-color: burlywood;
+            border: 3px solid rgb(108, 8, 167);
+            /* padding: 74px;  */
+
+            /* padding-top: 79px;
+            padding-bottom: 79px;
+            padding-right: 34px;
+            padding-left: 34px; */
+
+            /*padding: 23px 56px 6px 78px;*/  /*padding: top right bottom left;*/
+            padding: 34px 19px;            /* padding: y(top/bottom) x(left/right); */
+           
+            /* margin: 34px;  */
+            margin: 34px 19px; 
+
+        /* margin-top: 79px;
+         margin-bottom: 79px;
+         margin-right: 34px;
+         margin-left: 34px; */
+
+            border-radius: 23px;
+            width: 533px;
+
+            /* here width is fixed eventhough if u increase padding/margin width change use box sizing */
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>This is tutorial 20</h2>
+    <p id="first">CSS Tutorial_ CSS Box Model, Margin and Padding _ Web Development Tutorials #20</p>
+</div>
+
+    <div class="container">
+        <h2>This is tutorial 20</h2>
+    <p id="second">CSS Tutorial_ CSS Box Model, Margin and Padding _ Web Development Tutorials #20</p>
+</div>
+
+    <div class="container">
+        <h2>This is tutorial 20</h2>
+    <p id="third">CSS Tutorial_ CSS Box Model, Margin and Padding _ Web Development Tutorials #20</p>
+</div>
+</body>
+
+</html>
