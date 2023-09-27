@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position properties</title>
+    <style>
+        .container{
+            border: 4px solid black;
+            background-color: khaki;
+            /* margin: 5px; */
+            padding: 5px;
+            height: 3000px;
+        }   
+
+        /* css position = static(default), absolute, relative, fixed, sticky */
+        .box{
+            display: inline-block;  /*take everything in one-line, here box vertical to horizontal*/
+             border: 2px solid red;
+             width: 150px;
+             height: 150px;
+             margin: 2px;
+        }
+
+        #box3{
+            /* relative position: relative to its position  */
+            /* 1)position: relative;    /*you will get space b/w box
+            top: 33px;
+            left:40px;  */
+           
+            /* 2)absolute position: relative to its position  */
+            /* position: absolute;    /*you wont get space b/w box
+            top: 33px;
+            left:40px; */
+
+            /* 3)fixed     position: relative to browser window eg:- chat  */
+            /* position: fixed;    
+            right: 4px;  
+            bottom: 4px; */
+
+            /* 4)sticky   position: relative to browser window eg:- menu  */
+            position: sticky; 
+            top: 3px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <button class="box" id="box3">chat</button>
+        <div class="box" id="box4">4</div>
+    </div>
+</body>
+</html>
