@@ -1,0 +1,154 @@
+* {
+   font-size: 15px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+}
+
+body {
+   /* background-color: black; */
+   background-image: url(https://img.freepik.com/premium-photo/japanese-cherry-blossom-trees-landscape-anime-manga-illustration_691560-7839.jpg?w=740);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Set the body height to fill the viewport */
+    margin: 0; /* Remove default body margin */
+    overflow: hidden;
+   font-family: "Roboto", sans-serif;
+}
+
+/**************** main box **************/
+.mbox {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-top: 60px;
+}
+
+
+/*********************** form box box *******************/
+.rbox {
+   width: 480px;
+   height: 440px;
+   padding: 5px 5px;
+   background-color: rgb(253, 254, 255);
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+   border-top-left-radius: 30px;
+   border-bottom-left-radius: 30px;
+}
+
+h1 {
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   font-size: 25px;
+   /* font-style: oblique; */
+   /* color: aliceblue; */
+}
+
+/******************** input box ****************/
+input {
+   display: block;
+   margin-top: 10px;
+   margin-left: 70px;
+   width: 350px;
+   height: 35px;
+   border-radius: 20px;
+   border: none;
+   background-color: whitesmoke;
+   padding: 10px;
+   outline: none;
+}
+
+label {
+   display: inline-block;
+   margin-bottom: 0.5rem;
+}
+
+input:focus {
+   border: 2px solid rgb(225, 240, 26);
+}
+
+::placeholder {
+   color: black;
+}
+
+form button {
+   display: block;
+   width: 70%;
+   height: 40px;
+   margin-top: 20px;
+   margin-left: 75px;
+   cursor: pointer;
+   background-color: #FB771A;
+   color: white;
+   border-radius: 10px;
+   border: none;
+}
+
+form button a {
+   /* ... other CSS styles ... */
+   color: white;
+}
+
+.login {
+   /* font-size: 13px;  */
+   text-align: center;
+   margin: 10px 10px;
+   /* margin-top: 10px; */
+}
+
+.cbox {
+   display: inline;
+   width: 40px;
+   height: 15px;
+   margin-left: 60px;
+}
+
+/* -------------------navigation bar----------------- */
+.headname {
+   display: block;
+   margin: 8px 15px;
+   padding: 11px 11px;
+   width: 900px;
+   font-size: 30px;
+   color: black;
+}
+
+.navbar {
+   background-color: white;
+   height: 65px;
+   /* border-radius: 7px; */
+   position: relative;
+   bottom: 8px;
+}
+
+.navbar ul {
+   overflow: auto;
+   margin-left: 925px;
+   position: relative;
+   bottom: 48px;
+}
+
+.navbar li {
+   display: inline-block;
+   padding: 1px 20px;
+   margin: 1px 5px;
+   list-style: none;
+
+
+}
+
+.navbar li a {
+
+   text-decoration: none;
+   color: rgb(3, 1, 1);
+   font-weight: bold;
+}
+
+.navbar li a:hover {
+   color: black;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Registration Form</title>
+    <!-------------- css link --------------------->
+    <link rel="stylesheet" href="project1.css">
+    <!------------------- icon  ------------------------->
+    <link rel="icon" href="https://e7.pngegg.com/pngimages/986/321/png-clipart-project-based-learning-problem-based-learning-inquiry-based-learning-teacher-teacher-curriculum-teacher-thumbnail.png">
+</head>
+
+<body>
+
+    <!-- -------------------Navigation bar------------------  -->
+    <header>
+        <nav class="navbar">
+            <div class="headname">LeanerHub</div>
+            <ul>
+
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!------------------ main box ------------------->
+    <div class="mbox">
+        <!-------------------------- form box ------------------->
+        <div class="rbox">
+            <h1>Register</h1>
+            <!------------------------ form ----------------->
+            <form action="submit.html" >
+                <!-- <label for="firstname">First Name:</label> -->
+                <input type="text" placeholder="First Name" required>
+                <input type="email" placeholder="Email"  autocomplete="off" required>   
+                <input type="tell" placeholder="Phone Number" max="10" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm-Password" required>
+                    <div class="check">
+                        <input type="checkbox" class="cbox" required>
+                        <label for="checkbox">I agree to these <a href="#">Terms and Condition</a></label>
+                    <button>Submit</button>
+                    <!-- <button onclick="alert('You have been Registered Successfully!')">
+                        <a href="#">Register</a></button> -->
+                    <div class="login">
+                        Already have an account?
+                        <a href="/login">Sign in</a>
+                    </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
