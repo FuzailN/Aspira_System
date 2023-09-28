@@ -9,8 +9,9 @@
 
 body {
    /* background-color: black; */
-   background-image: url(https://img.freepik.com/premium-photo/japanese-cherry-blossom-trees-landscape-anime-manga-illustration_691560-7839.jpg?w=740);
-    background-size: cover;
+   /* background-image: url(https://img.freepik.com/premium-photo/japanese-cherry-blossom-trees-landscape-anime-manga-illustration_691560-7839.jpg?w=740); */
+   background: linear-gradient(to right, #99004d 0%, #ff0080 100%); 
+   background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 100vh; /* Set the body height to fill the viewport */
@@ -31,13 +32,13 @@ body {
 /*********************** form box box *******************/
 .rbox {
    width: 480px;
-   height: 440px;
+   height: 450px;
    padding: 5px 5px;
    background-color: rgb(253, 254, 255);
-   border-top-right-radius: 30px;
+   /* border-top-right-radius: 30px;
    border-bottom-right-radius: 30px;
    border-top-left-radius: 30px;
-   border-bottom-left-radius: 30px;
+   border-bottom-left-radius: 30px; */
 }
 
 h1 {
@@ -76,29 +77,41 @@ input:focus {
    color: black;
 }
 
-form button {
+button {
    display: block;
-   width: 70%;
-   height: 40px;
-   margin-top: 20px;
-   margin-left: 75px;
+   width:240px;
+   height: 35px;
+   margin-top: 10px;
+   margin-left: 120px;
    cursor: pointer;
-   background-color: #FB771A;
+   /* background-color: #FB771A; */
+   background: linear-gradient(to right, #99004d 0%, #ff0080 100%); 
    color: white;
-   border-radius: 10px;
+   border-radius: 20px;
+   padding: 7px;
+   /* font-weight: bold; */
    border: none;
-}
-
-form button a {
-   /* ... other CSS styles ... */
-   color: white;
 }
 
 .login {
    /* font-size: 13px;  */
    text-align: center;
-   margin: 10px 10px;
+   width:340px;
+   margin-top: 10px;
+   margin-left: 70px;
    /* margin-top: 10px; */
+   cursor: pointer;
+   /* background-color: #FB771A; */
+   background: linear-gradient(to right, #99004d 0%, #ff0080 100%); 
+   color: white;
+   border-radius: 20px;
+   padding: 7px;
+   /* font-weight: bold; */
+   border: none;
+}
+
+.login a{
+   color: white;
 }
 
 .cbox {
@@ -106,16 +119,19 @@ form button a {
    width: 40px;
    height: 15px;
    margin-left: 60px;
+   margin-top: 20px;
 }
 
 /* -------------------navigation bar----------------- */
 .headname {
    display: block;
-   margin: 8px 15px;
+   margin: 8px 0px;
    padding: 11px 11px;
-   width: 900px;
+   width: 1400px;
    font-size: 30px;
    color: black;
+   border-top: 5px solid #a30052;
+
 }
 
 .navbar {
